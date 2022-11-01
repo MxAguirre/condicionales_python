@@ -47,19 +47,46 @@ Alumno:
 print('Juego de trivia')
 puntaje = 0
 
-pregunta_1 = "¿Cuál es la capital de Argentina?"
+pregunta_1 = "¿Cuál es la capital de Argentina? "
 respuesta_1 = "buenos aires"
 
-pregunta_2 = "¿Cuál es la capital de Perú?"
+pregunta_2 = "¿Cuál es la capital de Perú? "
 respuesta_2 = "lima"
 
-pregunta_3 = "¿Cuál es la capital de Uruguay?"
+pregunta_3 = "¿Cuál es la capital de Uruguay? "
 respuesta_3 = "montevideo"
 
-pregunta_4 = "¿Cuál es la capital de Colombia?"
+pregunta_4 = "¿Cuál es la capital de Colombia? "
 respuesta_4 = "bogota"
 
-pregunta_5 = "¿Cuál es la capital de Venezuela?"
+pregunta_5 = "¿Cuál es la capital de Venezuela? "
 respuesta_5 = "caracas"
 
 # Empezar aquí la resolución del ejercicio
+
+respuesta_usuario_1 = str(input(pregunta_1))
+if respuesta_1 == respuesta_usuario_1.lower():
+  puntaje += 10
+else: 
+  pass
+respuesta_usuario_2 = str(input(pregunta_2))
+if respuesta_2 == respuesta_usuario_2.lower():
+  puntaje += 10
+else:
+  pass
+respuesta_usuario_3 = str(input(pregunta_3))
+if respuesta_3 == respuesta_usuario_3.lower():
+  puntaje += 10
+else:
+  pass
+respuesta_usuario_4 = str(input(pregunta_4))
+if respuesta_4 == respuesta_usuario_4.lower():
+  puntaje += 10
+else:
+  pass
+respuesta_usuario_5 = str(input(pregunta_5))
+if respuesta_5 == respuesta_usuario_5.lower():
+  puntaje += 10
+else:
+  pass
+print('Tu puntaje es:', puntaje)
